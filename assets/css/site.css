@@ -208,6 +208,7 @@ ul { list-style: none; padding: 0; }
 .assemble .k { animation: k-on 0s linear 2.55s both; }
 .assemble .ks { animation: ks-in .9s cubic-bezier(.2,.7,.2,1) .2s both, gaps-open .45s ease-in 2.55s forwards; }
 .assemble .m { animation: mt-in 1s ease-out 1s both; }
+.assemble .n { animation: mt-in 1s ease-out 1s both, gaps-open .45s ease-in 2.55s forwards; }
 .assemble .o { transform-origin: 43% 52.7%; animation: or-in 1.3s cubic-bezier(.2,.7,.2,1) 1.8s both; }
 @keyframes ks-in { from { opacity: 0; transform: translateY(18px) scale(.96); } to { opacity: 1; transform: none; } }
 @keyframes mt-in { from { opacity: 0; clip-path: inset(100% 0 0 0); } to { opacity: 1; clip-path: inset(0 0 0 0); } }
@@ -215,4 +216,4 @@ ul { list-style: none; padding: 0; }
 @keyframes gaps-open { from { opacity: 1; } to { opacity: 0; } }
 @keyframes k-on { from { opacity: 0; } to { opacity: 1; } }
 @media (max-width: 560px) { .assemble { max-width: 220px; } }
-@media (prefers-reduced-motion: reduce) { .assemble img { animation: none; } .assemble .ks { display: none; } }
+@media (prefers-reduced-motion: reduce) { .assemble img { animation: none; } .assemble .ks, .assemble .n { display: none; } }
