@@ -197,3 +197,4 @@ ul { list-style: none; padding: 0; }
 /* Subcontract card */
 .sub .muted { max-width: 820px; }
 .lists-gap { margin-top: 16px; }
+.statement--sm { font-size: 22px; line-height: 32px; }
