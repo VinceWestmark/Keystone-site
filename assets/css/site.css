@@ -193,3 +193,7 @@ ul { list-style: none; padding: 0; }
 
 /* Header and footer logos match the light gray hero logo */
 .site-header__logo img, .site-footer__brand img { opacity: .82; }
+
+/* Subcontract card */
+.sub .muted { max-width: 820px; }
+.lists-gap { margin-top: 16px; }
