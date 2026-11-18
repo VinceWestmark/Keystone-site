@@ -25,14 +25,10 @@ The public website for Keystone Mission Solutions Corp. It's plain HTML and CSS 
 - **Add or remove a job:** in `careers.html`, copy or delete one `<li>` block inside `<ul class="jobs">`, and update the job title and Gusto link.
 - **Email links:** each one is written as `<a data-user="info" ...>`. The script adds `@keystone-ms.com` when the page loads, so the full address never appears in the HTML, where spam bots could harvest it. To add a new address, copy an existing link and change `data-user`.
 
-## Turning on the Guam photos
+## Photos
 
-Once the photos are approved for public release:
-
-1. Add the two photos as `assets/img/guam-1.jpg` and `assets/img/guam-2.jpg`.
-2. In `services.html`, find the `<!-- PHOTOS:` comment and delete that line along with the `END PHOTOS -->` line. Leave the `<figure>` block between them in place.
-
-Don't add the photos to the repository before they're approved. The repository is public, so anything committed is visible to anyone, even if no page shows it.
+- The 10 SOPS Guam antenna photos (`assets/img/guam-1.jpg`, `guam-2.jpg`) were approved for public release in November 2026. They were converted to sRGB and saved with all metadata removed, including GPS location.
+- Before adding any new photo, strip its metadata the same way. Phone photos usually carry GPS coordinates.
 
 ## Security notes
 
